@@ -69,6 +69,14 @@ struct target targets[] = {
 		.lg = 0,
 	},
 	{
+		.vendor = "Verizon",
+		.device = "Samsung Stratosphere II",
+		.build = "JZO54K.I415VRBMF1 or JZO54K.I415VRBMA3",
+		.check_sigs = 0x88e0fe70,
+		.hdr = 0x88ed32e0,
+		.lg = 0,
+	},
+	{
 		.vendor = "T-Mobile",
 		.device = "LG Optimus F3Q",
 		.build = "D52010c",
